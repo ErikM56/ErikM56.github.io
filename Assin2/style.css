@@ -90,6 +90,7 @@ figcaption {
   font-size: 0.6em;
 }
 
+/*all img use the same settings*/
 img {
     border:10px  solid orange;
     border-bottom: 30px solid orange;
@@ -99,17 +100,16 @@ img {
     float: right;
 }
 
+/*all containers are the same apart from there subtitle alignment so there identical*/
 .spider_container {
   position: relative;
   text-align: right;
   color: black;
 }
-
-
 .spider_subtitle {
   position: absolute;
-  bottom: 74px;
-  right: 15px;
+  bottom: 74px; /*alignment*/
+  right: 15px; /*alignment*/
   
 }
 
@@ -119,8 +119,6 @@ img {
   text-align: right;
   color: black;
 }
-
-
 .bees_subtitle {
   position: absolute;
   bottom: 74px;
@@ -133,8 +131,6 @@ img {
   text-align: right;
   color: black;
 }
-
-
 .mosquito_subtitles {
   position: absolute;
   bottom: 119px;
@@ -147,8 +143,6 @@ img {
   text-align: right;
   color: black;
 }
-
-
 .butterflies_subtitle {
   position: absolute;
   bottom: 103px;
@@ -161,8 +155,6 @@ img {
   text-align: right;
   color: black;
 }
-
-
 .true_bugs_subtitle {
   position: absolute;
   bottom: 140px;
@@ -170,13 +162,12 @@ img {
   
 }
 
+
 .beetles_container {
   position: relative;
   text-align: right;
   color: black;
 }
-
-
 .beetles_subtitle {
   position: absolute;
   bottom: 100px;
