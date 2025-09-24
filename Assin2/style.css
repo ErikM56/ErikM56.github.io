@@ -108,8 +108,10 @@ img {
 /* Bottom left text */
 .bottom-right {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+bottom: 10px;
+}
 
-
+p {
+    position: left;
+    text-align: left;
 }
