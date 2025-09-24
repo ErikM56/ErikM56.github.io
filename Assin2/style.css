@@ -99,17 +99,96 @@ img {
     float: right;
 }
 
-.container {
+.spider_container {
   position: relative;
   text-align: right;
   color: black;
 }
 
-/* Bottom left text */
-.bottom-right {
+
+.spider_subtitle {
   position: absolute;
-bottom: 10px;
+  bottom: 74px;
+  right: 15px;
+  
 }
+
+
+.bees_container {
+  position: relative;
+  text-align: right;
+  color: black;
+}
+
+
+.bees_subtitle {
+  position: absolute;
+  bottom: 74px;
+  right: 15px;
+  
+}
+
+.mosquito_container {
+  position: relative;
+  text-align: right;
+  color: black;
+}
+
+
+.mosquito_subtitles {
+  position: absolute;
+  bottom: 119px;
+  right: 15px;
+  
+}
+
+.butterflies_container {
+  position: relative;
+  text-align: right;
+  color: black;
+}
+
+
+.butterflies_subtitle {
+  position: absolute;
+  bottom: 103px;
+  right: 15px;
+  
+}
+
+.true_bugs_container {
+  position: relative;
+  text-align: right;
+  color: black;
+}
+
+
+.true_bugs_subtitle {
+  position: absolute;
+  bottom: 140px;
+  right: 15px;
+  
+}
+
+.beetles_container {
+  position: relative;
+  text-align: right;
+  color: black;
+}
+
+
+.beetles_subtitle {
+  position: absolute;
+  bottom: 100px;
+  right: 15px;
+  
+}
+
+
+
+
+
+
 
 p {
     position: left;
